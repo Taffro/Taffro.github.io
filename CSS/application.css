@@ -56,6 +56,7 @@ background-color: #404437
 }
 
 .sub-text {
+	font-size: 1em;
 	color: #BFBFBF;
 }
 
@@ -168,7 +169,15 @@ background-color: #404437
 /* ===== About Me Section ====== */
 
 
+.column1-main {
+	width: 60%;
+	float: left;
+}
 
+.column2-main {
+	width: 40%;
+	float: right;
+}
 
 .sectionTitle {
 	font-family: "Arial Black", Gadget, sans-serif;
