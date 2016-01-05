@@ -325,6 +325,9 @@ textarea {
    overlap */
 
 @media(min-width: 1640px) {
+	.main-image {
+		width: 50%;
+	}
 	.column1-main {
 		text-align: center;
     	width: 100%;
