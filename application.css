@@ -1,0 +1,375 @@
+body {
+color: #2C2C2C;
+font: normal 100% Cambria, Georgia, serif;
+background-color: #404437
+}
+
+/* ============================= */
+/* ======= Common Selectors ====== */
+.column1 {
+	width: 50%;
+	float: left;
+}
+
+.column2 {
+	width: 50%;
+	float: right;
+}
+
+.column1-rev {
+	width: 50%;
+	float: right;
+}
+
+.column2-rev{
+	width: 50%;
+	float: left;
+}
+
+.container1{
+	padding-right: 10%;
+	padding-left: 10%;
+	margin-right: auto;
+	margin-left: auto;
+	width: 80%;
+	float: left;
+}
+
+.section1 {
+	height: auto;
+	display:block;
+	width: 100%;
+	color: #f2f2f2;
+	padding: 20px 0px;
+	top: 0px;
+	left: 0px;
+	margin: 0px auto;
+
+}
+
+.main-image {
+	width: 100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 70px;
+}
+
+.sub-text {
+	color: #BFBFBF;
+}
+
+.insideSection {
+	padding: 120px 0 0 0;
+}
+
+
+/* ============================= */
+/* ======= Header Section ====== */
+
+.header {
+	position: fixed;
+	height: auto;
+	display:block;
+	width: 100%;
+	color: #f2f2f2;
+	padding: 20px 0px;
+	background: #333;
+	top: 0px;
+	left: 0px;
+	margin: 0px auto;
+	background-color: #A2B284;
+	z-index: 1;
+}
+
+.container{
+	padding-right: 10%;
+	padding-left: 10%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.header .name {
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-weight: 700;
+	font-size: 1.8em;
+	margin: 0px;
+	text-transform: uppercase;
+}
+
+.header .title {
+	font-size: 1.0em;
+}
+
+.header .hireBtn {
+	float: right;
+	display: block;
+	border: 1px solid;
+	font-family: "Arial", Gadget, sans-serif;
+	padding: 15px 45px;
+	color: #f2f2f2;
+	text-align: center;
+	font-size: 1.2em;
+	text-transform: uppercase;
+	border-radius: 30px;
+	width: 100px;
+	margin: 20px 0 0 0;
+}
+
+.header .hireBtn:hover{
+	background-color: #81955D;
+}
+
+.header a.hireBtn {
+	text-decoration: none;
+}
+
+
+/* ============================= */
+/* ======  Skills Section ====== */
+
+
+.c3-column1{
+	width: 33.3333333333%;
+	float: left;
+}
+
+.c3-column1 p{
+	margin-left: 35%;
+}
+
+.c3-column2{
+	width: 33.3333333333%;
+	float: left;
+}
+
+.c3-column2 p{
+	margin-left: 35%;
+}
+
+.c3-column3{
+	width: 33.3333333333%;
+	float: left;
+}
+
+.c3-column3 p{
+	margin-left: 35%;
+}
+
+.row {
+	width: 100%;
+	float: left;
+}
+.img-skill {
+	position: absolute;
+}
+
+/* ============================= */
+/* ===== About Me Section ====== */
+
+
+
+
+.sectionTitle {
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-weight: bold;
+	font-size: 1em;
+	margin: 0px;
+	margin-top: 5px;
+	text-transform: uppercase;
+	color: #BFBFBF;
+}
+
+.section1 .introduction {
+	font-family: "Arial";
+	font-size: 1.6em;
+	font-weight: bold;
+}
+
+.skillTitle {
+	text-transform: uppercase;
+	font-family: "Arial Black", Gadget, sans-serif;
+	margin-left: 100px;
+}
+
+/* ============================= */
+/* ===== Education Section ===== */
+
+.sectionHeader {
+	font-family: "Arial";
+	font-size: 1.6em;
+	font-weight: bold;
+}
+
+.educationTitle {
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 1.2em;
+	margin-bottom: 0;
+}
+.educationLocation {
+	font-style: italic;
+	font-size: 0.9em;
+	margin-top: 0;
+}
+.img-education {
+	width: 150px;
+	height: 150px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+}
+
+/* ============================= */
+/* ==== Contact Me Section ===== */
+.form-outer {
+	background-color: #81955D;
+	width: 90%
+}
+.lazy-margin{
+	color:#81955D;
+}
+form {
+	margin: 0 auto;
+	width: 80%;
+}
+label {
+	font-style: italic;
+	display:block;
+    letter-spacing:2px;
+	font-size: 1em;
+	margin-top: 15px;
+	color: #f2f2f2;
+}
+#submit {
+	height: 40px;
+	background-color: #f2f2f2;
+	color: #808080;
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+
+input, textarea {
+	width:100%;
+	height:27px;
+	background:#f2f2f2;
+	border:1px solid #f2f2f2;
+	padding:10px;
+	margin-top:3px;
+	font-size:0.9em;
+	color:#808080;
+}
+
+.emailContainer {
+	background-color: #81955D;
+	width: 100%;
+	height: 70px;
+}
+
+.pleasehireme {
+	font-family: "Arial";
+	font-size: 1.6em;
+	font-weight: bold;
+}
+
+.txt-mail {
+	font-style: italic;
+	text-align: center;
+	margin-bottom: 0;
+	font-size: 1.3em;
+}
+
+.img-mail {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.honeypot {
+	
+}
+
+/* Optional placeholder changes */
+/*::-webkit-input-placeholder {
+    color:    #f2f2f2;
+}
+:-moz-placeholder {
+   color:    #f2f2f2;
+   opacity:  1;
+}
+::-moz-placeholder {
+   color:    #f2f2f2;
+   opacity:  1;
+}
+:-ms-input-placeholder {
+   color:    #f2f2f2;
+}*/
+
+textarea {
+	height: 200px;
+}
+
+/* ===================================== */
+/* ======= Media Queries Adaptive ====== */
+/* Always keep at the end to avoid code 
+   overlap */
+
+@media screen and (max-width: 991px) {
+	 .header .hireBtn {
+    	float: none;
+    	margin-left: auto;
+    	margin-right: auto;
+    }
+    .column1 {
+    	text-align: center;
+    	width: 100%;
+    }
+    .column2 {
+    	text-align: center;
+    	width: 100%;
+    }
+	.column1-rev {
+    	text-align: center;
+    	width: 100%;
+    }
+    .column2-rev {
+    	text-align: center;
+    	width: 100%;
+    }
+    
+    .c3-column1{
+    	text-align: center;
+    	width: 100%;
+    }
+    .c3-column1 p{
+    	margin-left: 0px;
+    }
+    .c3-column2{
+    	text-align: center;
+    	width: 100%;
+    }
+    .c3-column2 p{
+    	margin-left: 0px;
+    }
+    .c3-column3{
+    	text-align: center;
+    	width: 100%;
+    }
+    .c3-column3 p{
+    	margin-left: 0px;
+    }
+    .img-skill {
+    	visibility: hidden;
+    }
+    .form-outer {
+	background-color: #81955D;
+	width: 100%
+	}
+
+}
+
+@media (max-width: 991px) {
+    body {
+        text-align: center
+    }
+}
