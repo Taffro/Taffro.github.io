@@ -170,12 +170,12 @@ background-color: #404437
 
 /* ============================= */
 /* ===== About Me Section ====== */
-.column1-main {
+.column1 {
 	width: 50%;
 	float: left;
 }
 
-.column2-main {
+.column2 {
 	width: 50%;
 	float: right;
 }
@@ -324,23 +324,13 @@ textarea {
 /* Always keep at the end to avoid code 
    overlap */
 
-@media(max-width: 1800px) {
-	.main-image {
-		width: 30%;
-	}
-	.column1-main {
-		text-align: center;
-    	width: 100%;
-	}
-	.column2-main {
-		text-align: center;
-		width: 100%;
+@media(min-width: 1440px) {
+	.column1 {
+
 	}
 }
 
-
-
-@media(max-width: 1480px) {
+@media(min-width: 1280px) {
   html {
     font-size: 20px;
   }
@@ -355,14 +345,6 @@ textarea {
 @media screen and (max-width: 991px) {
 	html {
 		font-size: 20px;
-	}
-	.column1-main {
-		text-align: center;
-    	width: 100%;
-	}
-	.column2-main {
-		text-align: center;
-		width: 100%;
 	}
 	.header {
 		position: absolute;
