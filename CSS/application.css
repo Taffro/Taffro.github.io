@@ -1,3 +1,6 @@
+html {
+	font-size: 16px;
+}
 body {
 color: #2C2C2C;
 font: normal 100% Cambria, Georgia, serif;
@@ -168,17 +171,6 @@ background-color: #404437
 /* ============================= */
 /* ===== About Me Section ====== */
 
-
-.column1-main {
-	width: 60%;
-	float: left;
-}
-
-.column2-main {
-	width: 40%;
-	float: right;
-}
-
 .sectionTitle {
 	font-family: "Arial Black", Gadget, sans-serif;
 	font-weight: bold;
@@ -323,14 +315,16 @@ textarea {
 /* Always keep at the end to avoid code 
    overlap */
 
-@media only screen and (max-width: 400px) {
-    body { 
-    	font-size:90%;
-    }
-
+@media(max-width: 1580px) {
+  html {
+    font-size: 18px;
+  }
 }
 
 @media screen and (max-width: 991px) {
+	html {
+		font-size: 16px;
+	}
 	 .header .hireBtn {
     	float: none;
     	margin-left: auto;
@@ -341,14 +335,6 @@ textarea {
     	width: 100%;
     }
     .column2 {
-    	text-align: center;
-    	width: 100%;
-    }
-    .column1-main {
-    	text-align: center;
-    	width: 100%;
-    }
-    .column2-main {
     	text-align: center;
     	width: 100%;
     }
