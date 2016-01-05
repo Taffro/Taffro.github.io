@@ -324,7 +324,7 @@ textarea {
 /* Always keep at the end to avoid code 
    overlap */
 
-@media(min-width: 1440px) {
+@media(min-width: 1640px) {
 	.column1-main {
 		text-align: center;
     	width: 100%;
