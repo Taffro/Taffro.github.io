@@ -324,7 +324,7 @@ textarea {
 /* Always keep at the end to avoid code 
    overlap */
 
-@media(min-width: 1800px) {
+@media(max-width: 1800px) {
 	.main-image {
 		width: 30%;
 	}
@@ -338,7 +338,9 @@ textarea {
 	}
 }
 
-@media(min-width: 1280px) {
+
+
+@media(max-width: 1480px) {
   html {
     font-size: 20px;
   }
