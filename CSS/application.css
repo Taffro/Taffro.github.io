@@ -116,7 +116,7 @@ background-color: #404437
 	font-size: 1.2em;
 	text-transform: uppercase;
 	border-radius: 30px;
-	width: 100px;
+	width: 140px;
 	margin: 20px 0 0 0;
 }
 
@@ -315,15 +315,24 @@ textarea {
 /* Always keep at the end to avoid code 
    overlap */
 
+@media(min-width: 1580px) {
+  html {
+    font-size: 20px;
+  }
+}
+
 @media(max-width: 1580px) {
   html {
-    font-size: 18px;
+    font-size: 16px;
   }
 }
 
 @media screen and (max-width: 991px) {
 	html {
-		font-size: 16px;
+		font-size: 20px;
+	}
+	.header {
+		position: absolute;
 	}
 	 .header .hireBtn {
     	float: none;
