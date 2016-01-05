@@ -315,13 +315,13 @@ textarea {
 /* Always keep at the end to avoid code 
    overlap */
 
-@media(min-width: 1580px) {
+@media(min-width: 1280px) {
   html {
     font-size: 20px;
   }
 }
 
-@media(max-width: 1580px) {
+@media(max-width: 1280px) {
   html {
     font-size: 16px;
   }
