@@ -4,7 +4,7 @@
 	{
 	var mapProp = {
 	  center:myCenter,
-	  zoom:7,
+	  zoom:8,
 	  mapTypeId:google.maps.MapTypeId.ROADMAP
 	  };
 	  
@@ -12,7 +12,7 @@
 
 	var myCity = new google.maps.Circle({
 	  center:myCenter,
-	  radius:25000,
+	  radius:20000,
 	  strokeColor:"#FFFCD4",
 	  strokeOpacity:0.8,
 	  strokeWeight:2,
