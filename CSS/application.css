@@ -248,10 +248,11 @@ background-color: #404437
 	height: 70px;
 }
 
-.pleasehireme {
+#pleasehireme {
 	font-family: "Arial";
 	font-size: 1.6em;
 	font-weight: bold;
+	
 }
 
 .txt-mail {
