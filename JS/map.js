@@ -4,7 +4,8 @@
 	{
 	var mapProp = {
 	  center:myCenter,
-	  zoom:8,
+	  zoom:9,
+	  scrollwheel:false,
 	  mapTypeId:google.maps.MapTypeId.ROADMAP
 	  };
 	  
