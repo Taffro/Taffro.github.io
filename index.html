@@ -2,8 +2,11 @@
 
 <head>
 	<link rel="stylesheet" href="CSS/application.min.css">
+	<link rel="stylesheet" href="CSS/animation.min.css">
+	<script src="JS/wow.min.js"></script>
 	<script src="http://maps.googleapis.com/maps/api/js"></script>
 	<script src="JS/map.js"></script>
+	<title>Stephen Gibbs, Web Developer</title>
 </head>
 
 <body>
@@ -25,12 +28,10 @@
 	<div class="section1">
 		<div class="insideSection"> <!-- Seperate the header from the content -->
 			<div class="container">
-
 				<div class="column2">
 					<img class="main-image" src="Images/responsive.png">
 				</div>
-
-				<div class="column1">
+				<div class="column1 slideInLeft" data-wow-duration="2s" data-wow-delay="5s">
 					<h1>About Me</h1>
 					<p class="introduction">Greetings, I am a recent University Graduate in Web Development with knowledge of current technologies. I hope to expand my skillset by undertaking new projects and goals whilst also using the skills I have learned to create professional looking websites.</p>
 					<p class="sub-text">
@@ -40,7 +41,6 @@
 					Other assignments focused on improving user experiences. This included using various methods such as reducing page refresh times with the use of AJAX (less time waiting for the page to load) but also on how to design a site so that it is accessable for all, regardless of issues with sight, body or mind.
 					</p>
 				</div>
-
 			</div>
 		</div>
 	</div>
@@ -103,11 +103,13 @@
 			<div class="column2">
 				<img class="img-education" src="Images/graduation-cap.png">
 			</div>
-			<div class="column1">
-				<p class="educationTitle">BSc Web Development (2:1)</p>
-				<p class="educationLocation">University of Wales, Trinity Saint David</p>
-				<p class="sub-text">In the three years I spent in university, I not only learned the wonders of the web world but also the importance of time-management and orginisational skills. Each year I experienced a variety of different subjects, this included coding in front-end and back-end development, usability on the web and general computing knowledge such as networking. In the final year I produced a final year project which was titled "A Comparison in Web Animations". This assignment involved researching the use of animations on the web and how animations on the web could be created realistically to better involve the user.<p>
-			</div>
+			<section class="wow slideInLeft" data-wow-duration="2s" data-wow-delay="5s">
+				<div class="column1">
+					<p class="educationTitle">BSc Web Development (2:1)</p>
+					<p class="educationLocation">University of Wales, Trinity Saint David</p>
+					<p class="sub-text">In the three years I spent in university, I not only learned the wonders of the web world but also the importance of time-management and orginisational skills. Each year I experienced a variety of different subjects, this included coding in front-end and back-end development, usability on the web and general computing knowledge such as networking. In the final year I produced a final year project which was titled "A Comparison in Web Animations". This assignment involved researching the use of animations on the web and how animations on the web could be created realistically to better involve the user.<p>
+				</div>
+			</section>
 		</div>
 		<div class="container1">
 			
