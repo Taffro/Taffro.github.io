@@ -245,6 +245,8 @@ body h1 {
 .locationText {
 	margin-left: 20px;
 	margin-right: 20px;
+	margin-bottom: 0px;
+	padding-bottom: 20px;
 }
 
 .form-outer {
