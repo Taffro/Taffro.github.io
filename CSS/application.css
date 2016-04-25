@@ -19,6 +19,26 @@ body h1 {
 
 /* ============================= */
 /* ======= Common Selectors ====== */
+span.header-text {
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-weight: bold;
+	font-size: 1.4em;
+	margin: 0px;
+	margin-top: 30px;
+	text-transform: uppercase;
+	color: #BFBFBF;
+	background-color: #014148; 
+	padding: 20px 10px;
+}
+
+.skill-line {
+	width: 100%; 
+	height: 2%; 
+	border-bottom: 1px solid #BFBFBF; 
+	text-align: center;
+	margin-bottom: 20px;
+}
+
 .column1 {
 	width: 50%;
 	float: left;
@@ -74,10 +94,6 @@ body h1 {
 	padding-right: 20px;
 }
 
-.insideSection {
-	padding: 120px 0 0 0;
-}
-
 
 /* ============================= */
 /* ======= Header Section ====== */
@@ -95,6 +111,9 @@ body h1 {
 	margin: 0px auto;
 	background-color: #317373;
 	z-index: 1;
+}
+.header-seperator {
+	height: 164px;
 }
 
 .container{
@@ -132,7 +151,7 @@ body h1 {
 }
 
 .header .hireBtn:hover{
-	background-color: #81955D;
+	background-color: #214d4d;
 }
 
 .header a.hireBtn {
@@ -144,39 +163,15 @@ body h1 {
 /* ======  Skills Section ====== */
 
 
-.c3-column1{
+.c3-column{
 	width: 33.3333333333%;
 	float: left;
-}
-
-.c3-column1 p{
-	margin-left: 38%;
-}
-
-.c3-column2{
-	width: 33.3333333333%;
-	float: left;
-}
-
-.c3-column2 p{
-	margin-left: 38%;
-}
-
-.c3-column3{
-	width: 33.3333333333%;
-	float: left;
-}
-
-.c3-column3 p{
-	margin-left: 38%;
+	text-align: center;
 }
 
 .row {
 	width: 100%;
 	float: left;
-}
-.img-skill {
-	position: absolute;
 }
 
 /* ============================= */
@@ -200,7 +195,9 @@ body h1 {
 .skillTitle {
 	text-transform: uppercase;
 	font-family: "Arial Black", Gadget, sans-serif;
-	margin-left: 100px;
+	margin-left: 0px;
+	background-color: #014148; 
+	padding: 0 10px;
 }
 
 /* ============================= */
@@ -341,6 +338,12 @@ body h1 {
 	.header {
 		position: absolute;
 	}
+	.header-seperator {
+		height: 261px;
+	}
+	.skill-line {
+		height: 4%;
+	}
 	 .header .hireBtn {
     	float: none;
     	margin-left: auto;
@@ -363,29 +366,12 @@ body h1 {
     	width: 100%;
     }
     
-    .c3-column1{
+    .c3-column{
     	text-align: center;
     	width: 100%;
-    }
-    .c3-column1 p{
-    	margin-left: 0px;
-    }
-    .c3-column2{
-    	text-align: center;
-    	width: 100%;
-    }
-    .c3-column2 p{
-    	margin-left: 0px;
-    }
-    .c3-column3{
-    	text-align: center;
-    	width: 100%;
-    }
-    .c3-column3 p{
-    	margin-left: 0px;
     }
     .img-skill {
-    	visibility: hidden;
+    	
     }
     .form-outer {
 	width: 100%
@@ -410,6 +396,15 @@ body h1 {
 
 }
 
+@media screen and (max-width: 561px) {
+	.header-seperator {
+		height: 349px;
+	}
+	.skill-line {
+		height: 4%;
+	}
+}
+
 @media (max-width: 991px) {
     body {
         text-align: center;
@@ -420,5 +415,8 @@ body h1 {
     body 
     { 
     	font-size:120%;
+    }
+    .skill-line {
+    	height: 3%;
     }
 } 
