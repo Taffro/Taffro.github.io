@@ -342,7 +342,8 @@ span.header-text {
 		height: 261px;
 	}
 	.skill-line {
-		height: 4%;
+		height: 0%;
+		border-bottom: 0px none;
 	}
 	 .header .hireBtn {
     	float: none;
