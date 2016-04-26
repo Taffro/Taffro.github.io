@@ -28,7 +28,7 @@ span.header-text {
 	text-transform: uppercase;
 	color: #BFBFBF;
 	background-color: #014148; 
-	padding: 20px 10px;
+	padding: 0px 10px;
 }
 
 .skill-line {
@@ -172,6 +172,22 @@ span.header-text {
 .row {
 	width: 100%;
 	float: left;
+}
+
+.sass {
+	margin-right: 5%;
+}
+.cake {
+	margin-left: 5%;
+}
+
+.text-padding {
+	padding-left: 70px;
+	padding-right: 70px;
+}
+.img-skill {
+	height:100px;
+	width:100px;
 }
 
 /* ============================= */
@@ -341,6 +357,10 @@ span.header-text {
 	.header-seperator {
 		height: 261px;
 	}
+	.text-padding {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
 	.skill-line {
 		height: 0%;
 		border-bottom: 0px none;
@@ -394,7 +414,13 @@ span.header-text {
 	.foot-col-2 p {
 		float: none;
 	}
-
+	.sass {
+	margin-right: 5%;
+	}
+	.craft {
+		margin-left: 5%;
+		margin-bottom: 10px;
+	}
 }
 
 @media screen and (max-width: 561px) {
