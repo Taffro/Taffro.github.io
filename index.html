@@ -243,8 +243,6 @@
 		</div>
 	</div>
 	<footer>
-		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDUkModV0e0hnVnmwPZf_iLhE_Qer3F-AU &callback=initMap"
-  type="text/javascript"></script>
 		<script type="text/javascript">
 			function downloadJSAtOnload() {
 			var element = document.createElement("script");
@@ -257,6 +255,8 @@
 			window.attachEvent("onload", downloadJSAtOnload);
 			else window.onload = downloadJSAtOnload;
 		</script>
+		<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDUkModV0e0hnVnmwPZf_iLhE_Qer3F-AU &callback=initMap"></script>
+		<script type="text/javascript" src="JS/map.js"></script>
 	</footer>
 </body>
 </html>
